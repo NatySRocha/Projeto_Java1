@@ -9,7 +9,7 @@ public class Main {
         CsvHandler handler = new CsvHandler();
 
         Path pathMale = Paths.get("C:/Projetos/BackEnd_LetsCode/ArquivosJavaNIO2/LC.Manipulacao.Arquivos.JavaNIO2/src/infra/repository/male_oscar.csv");
-        Path pathFemale = Paths.get("C:/Projetos/BackEnd_LetsCode/ArquivosJavaNIO2/LC.Manipulacao.Arquivos.JavaNIO2/src/infra/repository/girls_oscar.csv");
+        Path pathFemale = Paths.get("C:/Projetos/BackEnd_LetsCode/ArquivosJavaNIO2/LC.Manipulacao.Arquivos.JavaNIO2/src/infra/repository/female_oscar.csv");
 
         List<Actor> listMale = new ArrayList<>();
         listMale = handler.readData(pathMale);
